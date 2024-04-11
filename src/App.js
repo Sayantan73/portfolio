@@ -10,7 +10,7 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar/>
       <Hero/>
       <SocialLinkes/>
@@ -19,7 +19,7 @@ function App() {
       <Work/>
       <Contact/>
       <Footer/>
-    </div>
+    </>
   );
 }
 

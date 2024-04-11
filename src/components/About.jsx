@@ -2,6 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
+    <>
     <div className='text-white max-w-[1200px] mx-auto my-12' id='about'>
       <div className="md:grid md:grid-cols-2 sm:py-16">
 
@@ -18,6 +19,7 @@ Looking for opportunities to explore more technologys and skills which can event
         <img className='mx-auto rounded-3xl py-8 md:py-0' src="https://scontent.fccu5-1.fna.fbcdn.net/v/t1.6435-9/138060439_1179940282424375_8323365154740216426_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RdL4vtsD9WcAb4ERXMw&_nc_ht=scontent.fccu5-1.fna&oh=00_AfCuzfi7aBCB7oJSgW21vVh7IDH_vyyMW1lm6bbpgwbu0A&oe=6637EC9F" alt="" width={300} height={300} />
       </div>
     </div>
+    </>
   )
 }
 

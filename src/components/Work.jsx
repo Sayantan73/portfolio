@@ -7,6 +7,7 @@ import moveIt from '../assets/moveIt.png'
 
 const Work = () => {
   return (
+    <>
     <div className='max-w-[1200PX] mx-auto p-5' id='work'>
       <div className="pb-8">
         <p className="text-4xl mb-3 font-bold primary-color">Work</p>
@@ -86,6 +87,7 @@ const Work = () => {
         </div>
 
     </div>
+    </>
   )
 }
 
