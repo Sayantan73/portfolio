@@ -11,14 +11,14 @@ import Work from "./components/Work";
 function App() {
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      <SocialLinkes/>
-      <Skils/>
-      <About/>
-      <Work/>
-      <Contact/>
-      <Footer/>
+      <Navbar />
+      <Hero />
+      <SocialLinkes />
+      <Skils />
+      <About />
+      <Work />
+      <Contact />
+      <Footer />
     </>
   );
 }

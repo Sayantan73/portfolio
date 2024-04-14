@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import Scroll, { Link } from 'react-scroll'
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -28,7 +29,7 @@ const Navbar = () => {
           <div className='block md:hidden mr-6' onClick={handleNav}>
             {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
           </div>
-          <div className={nav ? 'z-10 fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500' : 'fixed -left-full'}>
+          <div className={nav ? 'z-20 fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500' : 'fixed -left-full'}>
             <h1 className='text-3xl font-bold primary-color m-4'>S. KARAN</h1>
             <ul className='p-8 text-2xl'>
               <li className='p-5'><a href="#nav">Home</a></li>
