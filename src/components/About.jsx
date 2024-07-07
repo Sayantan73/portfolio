@@ -17,7 +17,7 @@ I am proficient in web development technologies like JavaScript, React, Node, Ex
 Looking for opportunities to explore more technologys and skills which can eventually helpful to grow in this field.</p>
             </div>
         </div>
-        <img className='mx-auto rounded-3xl py-8 md:py-0' src="aboutPhoto" alt="sayantan karan picture" width={300} height={300} />
+        <img className='mx-auto rounded-3xl py-8 md:py-0' src={aboutPhoto} alt="sayantan karan picture" width={300} height={300} />
       </div>
     </div>
     </>
