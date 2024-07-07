@@ -1,4 +1,5 @@
 import React from 'react'
+import aboutPhoto from '../assets/sayantanAbout.jpg'
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ I am proficient in web development technologies like JavaScript, React, Node, Ex
 Looking for opportunities to explore more technologys and skills which can eventually helpful to grow in this field.</p>
             </div>
         </div>
-        <img className='mx-auto rounded-3xl py-8 md:py-0' src="https://scontent.fccu5-1.fna.fbcdn.net/v/t1.6435-9/138060439_1179940282424375_8323365154740216426_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RdL4vtsD9WcAb4ERXMw&_nc_ht=scontent.fccu5-1.fna&oh=00_AfCuzfi7aBCB7oJSgW21vVh7IDH_vyyMW1lm6bbpgwbu0A&oe=6637EC9F" alt="" width={300} height={300} />
+        <img className='mx-auto rounded-3xl py-8 md:py-0' src="aboutPhoto" alt="sayantan karan picture" width={300} height={300} />
       </div>
     </div>
     </>
